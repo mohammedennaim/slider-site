@@ -1,0 +1,132 @@
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  bottom: 0;
+  z-index: 99;
+  left: 40%;
+}
+ul li {
+  cursor: pointer;
+}
+ul li img {
+  width: 60px;
+  height: 60px;
+}
+ul li:nth-child(1) img {
+  width: 55px;
+  height: 60px;
+}
+ul li:nth-child(3) img {
+  width: 63px;
+  height: 60px;
+}
+ul li:hover {
+  transform: translateY(-20px);
+}
+ul li:hover img:hover {
+  transform: scale(1.4);
+}
+ul li:nth-of-type(2) img {
+  height: 54px;
+  margin-left: 5px;
+}
+div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back {
+  position: absolute;
+  background-color: rgb(171, 216, 171);
+  width: 500px;
+  height: 600px;
+  border-top-left-radius: 500px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.logo1 img:nth-child(1) {
+  position: absolute;
+  width: 300px;
+  left: 20%;
+  z-index: 5;
+}
+.logo1 img:nth-child(2) {
+  position: absolute;
+  height: 290px;
+  width: 240px;
+  right: 85px;
+  top: 30%;
+}
+.logo2 img:nth-child(1) {
+  position: absolute;
+  width: 300px;
+  left: 20%;
+  z-index: 3;
+  display: none;
+}
+.logo2 img:nth-child(2) {
+  position: absolute;
+  height: 260px;
+  width: 250px;
+  right: 80px;
+  top: 29%;
+  display: none;
+}
+.logo3 img:nth-child(1) {
+  position: absolute;
+  width: 300px;
+  left: 20%;
+  display: none;
+}
+.logo3 img:nth-child(2) {
+  position: absolute;
+  top: 27%;
+  height: 310px;
+  width: 300px;
+  right: 60px;
+  display: none;
+}
+i:nth-of-type(1) {
+  position: absolute;
+  color: rgb(224, 224, 224);
+  left: 10px;
+  font-size: x-large;
+  top: 50%;
+  background-color: cadetblue;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 99;
+}
+i:nth-of-type(2) {
+  position: absolute;
+  color: #fff;
+  right: 10px;
+  font-size: x-large;
+  top: 50%;
+  background-color: cadetblue;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  opacity: 0.8;
+  cursor: pointer;
+}
