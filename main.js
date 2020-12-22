@@ -18,6 +18,7 @@ function sprite(){
     cocabtn1.style.display='none';
     spritebtn1.style.display='block';
     upbtn1.style.display='none';
+
     cocabtn2.style.display='none';
     spritebtn2.style.display='block';
     upbtn2.style.display='none';
@@ -26,9 +27,11 @@ function up(){
     cocabtn1.style.display='none';
     spritebtn1.style.display='none';
     upbtn1.style.display='block';
+
     cocabtn2.style.display='none';
     spritebtn2.style.display='none';
     upbtn2.style.display='block';
+    
 }
 
 
