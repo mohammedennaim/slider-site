@@ -49,8 +49,8 @@ div {
 .back {
   position: absolute;
   background-color: rgb(52, 204, 204);
-  width: 650px;
-  height: 750px;
+  width: 550px;
+  height: 650px;
   border-top-left-radius: 650px;
   right: 0;
   bottom: 0;
